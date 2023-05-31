@@ -1,0 +1,125 @@
+.is{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+body{
+    margin: 0px;
+    background-color: #7FDEE3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:visited{
+    text-decoration: transparent rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.671);
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    margin-top: 10px;
+    background: linear-gradient(#7FDEE3, #7FA9E3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px; /*Arriba y abajo*/
+    min-height: calc(100vh -200px);
+}
+.login_container{
+    background-color: rgba(255, 255, 255, 0.1); /*Color medio transparente*/
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login_container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;    
+}
+input::placeholder {
+    color: white;
+}
+.login_container_remember{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    align-content: center;
+}
+.oc{
+    padding-top: 4px;
+}
+.oc:hover{
+    filter: opacity(.6);
+    transition: 0.2s;
+}
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px; 
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+.button{
+    border: 2px transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 40px;
+    padding: 10px;
+    background: linear-gradient(#7FDEE3, #7FA9E3);
+}
+.button:hover {
+    filter: opacity(.5);
+    transition: 0.2s;
+}
+.container_social{
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.container_social img{
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    padding-right: 10px;
+    align-content: center;
+}
+.container_social div:hover{
+    filter: opacity(.6);
+    transition: 0.2s;
+}
+.reg:hover{
+    filter: opacity(.6);
+    transition: 0.2s;
+}
+footer{
+    margin: 20px;
+    padding: 30px;
+}
+footer a{
+    padding-right: 20px;
+}
+footer a:hover{
+    filter: opacity(.6);
+    transition: 0.2s;
+}
